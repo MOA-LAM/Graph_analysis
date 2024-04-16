@@ -1,0 +1,474 @@
+
+
+MAPPING
+FROM CSV {
+}
+TO {
+  ?AD_iri a <tag:stardog:designer:Project_Graph_:model:agedep> .
+
+  ?ADO_iri a <tag:stardog:designer:Project_Graph_:model:ADO> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> ?label_2 .
+
+  ?ADY_iri a <tag:stardog:designer:Project_Graph_:model:ADY> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> ?label_1 .
+
+  ?BR_iri a <tag:stardog:designer:Project_Graph_:model:Pop> .
+
+  ?BR_ra_iri a <tag:stardog:designer:Project_Graph_:model:POP_MF_R> .
+
+  ?Core_iri a <tag:stardog:designer:Project_Graph_:model:time> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> ?label_3 .
+
+  ?DDM_iri a <tag:stardog:designer:Project_Graph_:model:DDM> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> ?label ;
+    <tag:stardog:designer:Project_Graph_:model:Age_dependency_ratio,_old_[SP.POP.DPND.OL]> ?Age_dependency_ratio__old__SP_POP_DPND_OL__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_dependency_ratio,_young_[SP.POP.DPND.YG]> ?Age_dependency_ratio__young__SP_POP_DPND_YG__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_00,_female,_interpolated_[SP.POP.AG00.FE.IN]> ?Age_population__age_00__female__interpolated__SP_POP_AG00_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_00,_male,_interpolated_[SP.POP.AG00.MA.IN]> ?Age_population__age_00__male__interpolated__SP_POP_AG00_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_01,_female,_interpolated_[SP.POP.AG01.FE.IN]> ?Age_population__age_01__female__interpolated__SP_POP_AG01_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_01,_male,_interpolated_[SP.POP.AG01.MA.IN]> ?Age_population__age_01__male__interpolated__SP_POP_AG01_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_02,_female,_interpolated_[SP.POP.AG02.FE.IN]> ?Age_population__age_02__female__interpolated__SP_POP_AG02_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_02,_male,_interpolated_[SP.POP.AG02.MA.IN]> ?Age_population__age_02__male__interpolated__SP_POP_AG02_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_03,_female,_interpolated_[SP.POP.AG03.FE.IN]> ?Age_population__age_03__female__interpolated__SP_POP_AG03_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_03,_male,_interpolated_[SP.POP.AG03.MA.IN]> ?Age_population__age_03__male__interpolated__SP_POP_AG03_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_04,_female,_interpolated_[SP.POP.AG04.FE.IN]> ?Age_population__age_04__female__interpolated__SP_POP_AG04_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_04,_male,_interpolated_[SP.POP.AG04.MA.IN]> ?Age_population__age_04__male__interpolated__SP_POP_AG04_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_05,_female,_interpolated_[SP.POP.AG05.FE.IN]> ?Age_population__age_05__female__interpolated__SP_POP_AG05_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_05,_male,_interpolated_[SP.POP.AG05.MA.IN]> ?Age_population__age_05__male__interpolated__SP_POP_AG05_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_06,_female,_interpolated_[SP.POP.AG06.FE.IN]> ?Age_population__age_06__female__interpolated__SP_POP_AG06_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_06,_male,_interpolated_[SP.POP.AG06.MA.IN]> ?Age_population__age_06__male__interpolated__SP_POP_AG06_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_07,_female,_interpolated_[SP.POP.AG07.FE.IN]> ?Age_population__age_07__female__interpolated__SP_POP_AG07_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_07,_male,_interpolated_[SP.POP.AG07.MA.IN]> ?Age_population__age_07__male__interpolated__SP_POP_AG07_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_08,_female,_interpolated_[SP.POP.AG08.FE.IN]> ?Age_population__age_08__female__interpolated__SP_POP_AG08_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_08,_male,_interpolated_[SP.POP.AG08.MA.IN]> ?Age_population__age_08__male__interpolated__SP_POP_AG08_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_09,_female,_interpolated_[SP.POP.AG09.FE.IN]> ?Age_population__age_09__female__interpolated__SP_POP_AG09_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_09,_male,_interpolated_[SP.POP.AG09.MA.IN]> ?Age_population__age_09__male__interpolated__SP_POP_AG09_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_10,_female,_interpolated_[SP.POP.AG10.FE.IN]> ?Age_population__age_10__female__interpolated__SP_POP_AG10_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_10,_male,_interpolated_[SP.POP.AG10.MA.IN]> ?Age_population__age_10__male__interpolated__SP_POP_AG10_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_11,_female,_interpolated_[SP.POP.AG11.FE.IN]> ?Age_population__age_11__female__interpolated__SP_POP_AG11_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_11,_male,_interpolated_[SP.POP.AG11.MA.IN]> ?Age_population__age_11__male__interpolated__SP_POP_AG11_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_12,_female,_interpolated_[SP.POP.AG12.FE.IN]> ?Age_population__age_12__female__interpolated__SP_POP_AG12_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_12,_male,_interpolated_[SP.POP.AG12.MA.IN]> ?Age_population__age_12__male__interpolated__SP_POP_AG12_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_13,_female,_interpolated_[SP.POP.AG13.FE.IN]> ?Age_population__age_13__female__interpolated__SP_POP_AG13_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_13,_male,_interpolated_[SP.POP.AG13.MA.IN]> ?Age_population__age_13__male__interpolated__SP_POP_AG13_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_14,_female,_interpolated_[SP.POP.AG14.FE.IN]> ?Age_population__age_14__female__interpolated__SP_POP_AG14_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_14,_male,_interpolated_[SP.POP.AG14.MA.IN]> ?Age_population__age_14__male__interpolated__SP_POP_AG14_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_15,_female,_interpolated_[SP.POP.AG15.FE.IN]> ?Age_population__age_15__female__interpolated__SP_POP_AG15_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_15,_male,_interpolated_[SP.POP.AG15.MA.IN]> ?Age_population__age_15__male__interpolated__SP_POP_AG15_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_16,_female,_interpolated_[SP.POP.AG16.FE.IN]> ?Age_population__age_16__female__interpolated__SP_POP_AG16_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_16,_male,_interpolated_[SP.POP.AG16.MA.IN]> ?Age_population__age_16__male__interpolated__SP_POP_AG16_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_17,_female,_interpolated_[SP.POP.AG17.FE.IN]> ?Age_population__age_17__female__interpolated__SP_POP_AG17_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_17,_male,_interpolated_[SP.POP.AG17.MA.IN]> ?Age_population__age_17__male__interpolated__SP_POP_AG17_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_18,_female,_interpolated_[SP.POP.AG18.FE.IN]> ?Age_population__age_18__female__interpolated__SP_POP_AG18_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_18,_male,_interpolated_[SP.POP.AG18.MA.IN]> ?Age_population__age_18__male__interpolated__SP_POP_AG18_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_19,_female,_interpolated_[SP.POP.AG19.FE.IN]> ?Age_population__age_19__female__interpolated__SP_POP_AG19_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_19,_male,_interpolated_[SP.POP.AG19.MA.IN]> ?Age_population__age_19__male__interpolated__SP_POP_AG19_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_20,_female,_interpolated_[SP.POP.AG20.FE.IN]> ?Age_population__age_20__female__interpolated__SP_POP_AG20_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_20,_male,_interpolated_[SP.POP.AG20.MA.IN]> ?Age_population__age_20__male__interpolated__SP_POP_AG20_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_21,_female,_interpolated_[SP.POP.AG21.FE.IN]> ?Age_population__age_21__female__interpolated__SP_POP_AG21_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_21,_male,_interpolated_[SP.POP.AG21.MA.IN]> ?Age_population__age_21__male__interpolated__SP_POP_AG21_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_22,_female,_interpolated_[SP.POP.AG22.FE.IN]> ?Age_population__age_22__female__interpolated__SP_POP_AG22_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_22,_male,_interpolated_[SP.POP.AG22.MA.IN]> ?Age_population__age_22__male__interpolated__SP_POP_AG22_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_23,_female,_interpolated_[SP.POP.AG23.FE.IN]> ?Age_population__age_23__female__interpolated__SP_POP_AG23_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_23,_male,_interpolated_[SP.POP.AG23.MA.IN]> ?Age_population__age_23__male__interpolated__SP_POP_AG23_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_24,_female,_interpolated_[SP.POP.AG24.FE.IN]> ?Age_population__age_24__female__interpolated__SP_POP_AG24_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_24,_male,_interpolated_[SP.POP.AG24.MA.IN]> ?Age_population__age_24__male__interpolated__SP_POP_AG24_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_25,_female,_interpolated_[SP.POP.AG25.FE.IN]> ?Age_population__age_25__female__interpolated__SP_POP_AG25_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Age_population,_age_25,_male,_interpolated_[SP.POP.AG25.MA.IN]> ?Age_population__age_25__male__interpolated__SP_POP_AG25_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Birth_rate,_crude_(per_1,000_people)_[SP.DYN.CBRT.IN]> ?Birth_rate__crude__per_1_000_people___SP_DYN_CBRT_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Country_Code> ?Country_Code_string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Country_Name> ?Country_Name_string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Death_rate,_crude_(per_1,000_people)_[SP.DYN.CDRT.IN]> ?Death_rate__crude__per_1_000_people___SP_DYN_CDRT_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Fertility_rate,_total_(births_per_woman)_[SP.DYN.TFRT.IN]> ?Fertility_rate__total__births_per_woman___SP_DYN_TFRT_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Life_expectancy_at_birth,_female_(years)_[SP.DYN.LE00.FE.IN]> ?Life_expectancy_at_birth__female__years___SP_DYN_LE00_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Life_expectancy_at_birth,_male_(years)_[SP.DYN.LE00.MA.IN]> ?Life_expectancy_at_birth__male__years___SP_DYN_LE00_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Life_expectancy_at_birth,_total_(years)_[SP.DYN.LE00.IN]> ?Life_expectancy_at_birth__total__years___SP_DYN_LE00_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Mortality_rate,_adult,_female_(per_1,000_female_adults)_[SP.DYN.AMRT.FE]> ?Mortality_rate__adult__female__per_1_000_female_adults___SP_DYN_AMRT_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Mortality_rate,_adult,_male_(per_1,000_male_adults)_[SP.DYN.AMRT.MA]> ?Mortality_rate__adult__male__per_1_000_male_adults___SP_DYN_AMRT_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Mortality_rate,_infant_(per_1,000_live_births)_[SP.DYN.IMRT.IN]> ?Mortality_rate__infant__per_1_000_live_births___SP_DYN_IMRT_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Mortality_rate,_infant,_female_(per_1,000_live_births)_[SP.DYN.IMRT.FE.IN]> ?Mortality_rate__infant__female__per_1_000_live_births___SP_DYN_IMRT_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Mortality_rate,_infant,_male_(per_1,000_live_births)_[SP.DYN.IMRT.MA.IN]> ?Mortality_rate__infant__male__per_1_000_live_births___SP_DYN_IMRT_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Mortality_rate,_neonatal_(per_1,000_live_births)_[SH.DYN.NMRT]> ?Mortality_rate__neonatal__per_1_000_live_births___SH_DYN_NMRT__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Mortality_rate,_under-5_(per_1,000)_[SH.DYN.MORT]> ?Mortality_rate__under_5__per_1_000___SH_DYN_MORT__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Mortality_rate,_under-5,_female_(per_1,000)_[SH.DYN.MORT.FE]> ?Mortality_rate__under_5__female__per_1_000___SH_DYN_MORT_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Mortality_rate,_under-5,_male_(per_1,000)_[SH.DYN.MORT.MA]> ?Mortality_rate__under_5__male__per_1_000___SH_DYN_MORT_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Net_migration_[SM.POP.NETM]> ?Net_migration__SM_POP_NETM__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Number_of_deaths_ages_10-14_years_[SH.DTH.1014]> ?Number_of_deaths_ages_10_14_years__SH_DTH_1014__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Number_of_deaths_ages_10-19_years_[SH.DTH.1019]> ?Number_of_deaths_ages_10_19_years__SH_DTH_1019__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Number_of_deaths_ages_15-19_years_[SH.DTH.1519]> ?Number_of_deaths_ages_15_19_years__SH_DTH_1519__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Number_of_deaths_ages_20-24_years_[SH.DTH.2024]> ?Number_of_deaths_ages_20_24_years__SH_DTH_2024__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Number_of_deaths_ages_5-14_years_[SH.DTH.0514]> ?Number_of_deaths_ages_5_14_years__SH_DTH_0514__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Number_of_deaths_ages_5-9_years_[SH.DTH.0509]> ?Number_of_deaths_ages_5_9_years__SH_DTH_0509__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Number_of_infant_deaths_[SH.DTH.IMRT]> ?Number_of_infant_deaths__SH_DTH_IMRT__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Number_of_infant_deaths,_female_[SH.DTH.IMRT.FE]> ?Number_of_infant_deaths__female__SH_DTH_IMRT_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Number_of_infant_deaths,_male_[SH.DTH.IMRT.MA]> ?Number_of_infant_deaths__male__SH_DTH_IMRT_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Number_of_neonatal_deaths_[SH.DTH.NMRT]> ?Number_of_neonatal_deaths__SH_DTH_NMRT__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Number_of_under-five_deaths_[SH.DTH.MORT]> ?Number_of_under_five_deaths__SH_DTH_MORT__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Number_of_under-five_deaths,_female_[SH.DTH.MORT.FE]> ?Number_of_under_five_deaths__female__SH_DTH_MORT_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Number_of_under-five_deaths,_male_[SH.DTH.MORT.MA]> ?Number_of_under_five_deaths__male__SH_DTH_MORT_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_0-14,_female_[SP.POP.0014.FE.IN]> ?Population_ages_0_14__female__SP_POP_0014_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_0-14,_male_[SP.POP.0014.MA.IN]> ?Population_ages_0_14__male__SP_POP_0014_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_0-14,_total_[SP.POP.0014.TO]> ?Population_ages_0_14__total__SP_POP_0014_TO__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_00-04,_female_[SP.POP.0004.FE]> ?Population_ages_00_04__female__SP_POP_0004_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_00-04,_male_[SP.POP.0004.MA]> ?Population_ages_00_04__male__SP_POP_0004_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_05-09,_female_[SP.POP.0509.FE]> ?Population_ages_05_09__female__SP_POP_0509_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_05-09,_male_[SP.POP.0509.MA]> ?Population_ages_05_09__male__SP_POP_0509_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_10-14,_female_[SP.POP.1014.FE]> ?Population_ages_10_14__female__SP_POP_1014_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_10-14,_male_[SP.POP.1014.MA]> ?Population_ages_10_14__male__SP_POP_1014_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_15-19,_female_[SP.POP.1519.FE]> ?Population_ages_15_19__female__SP_POP_1519_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_15-19,_male_[SP.POP.1519.MA]> ?Population_ages_15_19__male__SP_POP_1519_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_15-64,_female_[SP.POP.1564.FE.IN]> ?Population_ages_15_64__female__SP_POP_1564_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_15-64,_male_[SP.POP.1564.MA.IN]> ?Population_ages_15_64__male__SP_POP_1564_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_15-64,_total_[SP.POP.1564.TO]> ?Population_ages_15_64__total__SP_POP_1564_TO__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_20-24,_female_[SP.POP.2024.FE]> ?Population_ages_20_24__female__SP_POP_2024_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_20-24,_male_[SP.POP.2024.MA]> ?Population_ages_20_24__male__SP_POP_2024_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_25-29,_female_[SP.POP.2529.FE]> ?Population_ages_25_29__female__SP_POP_2529_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_25-29,_male_[SP.POP.2529.MA]> ?Population_ages_25_29__male__SP_POP_2529_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_30-34,_female_[SP.POP.3034.FE]> ?Population_ages_30_34__female__SP_POP_3034_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_30-34,_male_[SP.POP.3034.MA]> ?Population_ages_30_34__male__SP_POP_3034_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_35-39,_female_[SP.POP.3539.FE]> ?Population_ages_35_39__female__SP_POP_3539_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_35-39,_male_[SP.POP.3539.MA]> ?Population_ages_35_39__male__SP_POP_3539_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_40-44,_female_[SP.POP.4044.FE]> ?Population_ages_40_44__female__SP_POP_4044_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_40-44,_male_[SP.POP.4044.MA]> ?Population_ages_40_44__male__SP_POP_4044_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_45-49,_female_[SP.POP.4549.FE]> ?Population_ages_45_49__female__SP_POP_4549_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_45-49,_male_[SP.POP.4549.MA]> ?Population_ages_45_49__male__SP_POP_4549_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_50-54,_female_[SP.POP.5054.FE]> ?Population_ages_50_54__female__SP_POP_5054_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_50-54,_male_[SP.POP.5054.MA]> ?Population_ages_50_54__male__SP_POP_5054_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_55-59,_female_[SP.POP.5559.FE]> ?Population_ages_55_59__female__SP_POP_5559_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_55-59,_male_[SP.POP.5559.MA]> ?Population_ages_55_59__male__SP_POP_5559_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_60-64,_female_[SP.POP.6064.FE]> ?Population_ages_60_64__female__SP_POP_6064_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_60-64,_male_[SP.POP.6064.MA]> ?Population_ages_60_64__male__SP_POP_6064_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_65_and_above,_female_[SP.POP.65UP.FE.IN]> ?Population_ages_65_and_above__female__SP_POP_65UP_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_65_and_above,_male_[SP.POP.65UP.MA.IN]> ?Population_ages_65_and_above__male__SP_POP_65UP_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_65_and_above,_total_[SP.POP.65UP.TO]> ?Population_ages_65_and_above__total__SP_POP_65UP_TO__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_65-69,_female_[SP.POP.6569.FE]> ?Population_ages_65_69__female__SP_POP_6569_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_65-69,_male_[SP.POP.6569.MA]> ?Population_ages_65_69__male__SP_POP_6569_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_70-74,_female_[SP.POP.7074.FE]> ?Population_ages_70_74__female__SP_POP_7074_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_70-74,_male_[SP.POP.7074.MA]> ?Population_ages_70_74__male__SP_POP_7074_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_75-79,_female_[SP.POP.7579.FE]> ?Population_ages_75_79__female__SP_POP_7579_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_75-79,_male_[SP.POP.7579.MA]> ?Population_ages_75_79__male__SP_POP_7579_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_80_and_above,_female_[SP.POP.80UP.FE]> ?Population_ages_80_and_above__female__SP_POP_80UP_FE__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population_ages_80_and_above,_male_[SP.POP.80UP.MA]> ?Population_ages_80_and_above__male__SP_POP_80UP_MA__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population,_female_[SP.POP.TOTL.FE.IN]> ?Population__female__SP_POP_TOTL_FE_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population,_male_[SP.POP.TOTL.MA.IN]> ?Population__male__SP_POP_TOTL_MA_IN__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Population,_total_[SP.POP.TOTL]> ?Population__total__SP_POP_TOTL__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Probability_of_dying_among_adolescents_ages_10-14_years_(per_1,000)_[SH.DYN.1014]> ?Probability_of_dying_among_adolescents_ages_10_14_years__per_1_000___SH_DYN_1014__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Probability_of_dying_among_adolescents_ages_10-19_years_(per_1,000)_[SH.DYN.1019]> ?Probability_of_dying_among_adolescents_ages_10_19_years__per_1_000___SH_DYN_1019__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Probability_of_dying_among_adolescents_ages_15-19_years_(per_1,000)_[SH.DYN.1519]> ?Probability_of_dying_among_adolescents_ages_15_19_years__per_1_000___SH_DYN_1519__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Probability_of_dying_among_children_ages_5-9_years_(per_1,000)_[SH.DYN.0509]> ?Probability_of_dying_among_children_ages_5_9_years__per_1_000___SH_DYN_0509__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Probability_of_dying_among_youth_ages_20-24_years_(per_1,000)_[SH.DYN.2024]> ?Probability_of_dying_among_youth_ages_20_24_years__per_1_000___SH_DYN_2024__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Probability_of_dying_at_age_5-14_years_(per_1,000_children_age_5)_[SH.DYN.0514]> ?Probability_of_dying_at_age_5_14_years__per_1_000_children_age_5___SH_DYN_0514__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Rural_population_[SP.RUR.TOTL]> ?Rural_population__SP_RUR_TOTL__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Sex_ratio_at_birth_(male_births_per_female_births)_[SP.POP.BRTH.MF]> ?Sex_ratio_at_birth__male_births_per_female_births___SP_POP_BRTH_MF__string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Time> ?Time_string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Time_Code> ?Time_Code_string_field ;
+    <tag:stardog:designer:Project_Graph_:model:Urban_population_[SP.URB.TOTL]> ?Urban_population__SP_URB_TOTL__string_field .
+
+  ?DR_iri a <tag:stardog:designer:Project_Graph_:model:DR> .
+
+  ?FR_iri a <tag:stardog:designer:Project_Graph_:model:FR> .
+
+  ?LEB_iri a <tag:stardog:designer:Project_Graph_:model:life_expectancy> .
+
+  ?LEBF_iri a <tag:stardog:designer:Project_Graph_:model:LEBF> .
+
+  ?LEBM_iri a <tag:stardog:designer:Project_Graph_:model:LEBM> .
+
+  ?Mig_iri a <tag:stardog:designer:Project_Graph_:model:Mig> .
+
+  ?MOR_A_F_iri a <tag:stardog:designer:Project_Graph_:model:MOR_1> .
+
+  ?MOR_A_M_iri a <tag:stardog:designer:Project_Graph_:model:MOR_> .
+
+  ?MOR_I_F_iri a <tag:stardog:designer:Project_Graph_:model:MOR_I_F> .
+
+  ?MOR_I_iri a <tag:stardog:designer:Project_Graph_:model:MOR_I> .
+
+  ?MOR_I_M_iri a <tag:stardog:designer:Project_Graph_:model:MOR_I_M> .
+
+  ?MOR_iri a <tag:stardog:designer:Project_Graph_:model:Mor> .
+
+  ?MOR_Neo_iri a <tag:stardog:designer:Project_Graph_:model:MOR_Neo> .
+
+  ?POP_F_iri a <tag:stardog:designer:Project_Graph_:model:POP_F> .
+
+  ?POP_Gr_iri a <tag:stardog:designer:Project_Graph_:model:POP_Gr> .
+
+  ?POP_M_iri a <tag:stardog:designer:Project_Graph_:model:POP_M> .
+
+  ?POP_MF_iri a <tag:stardog:designer:Project_Graph_:model:Prob_D> .
+
+  ?POP_R_GR_iri a <tag:stardog:designer:Project_Graph_:model:POP_R_GR> .
+
+  ?POP_R_iri a <tag:stardog:designer:Project_Graph_:model:POP_R> .
+
+  ?POP_R_perc_iri a <tag:stardog:designer:Project_Graph_:model:POP_R_perc> .
+
+  ?POP_Seg_0_14_iri a <tag:stardog:designer:Project_Graph_:model:POP_Seg_0-14> .
+
+  ?POP_Seg_15_64_iri a <tag:stardog:designer:Project_Graph_:model:POP_Seg_15-64> .
+
+  ?POP_Seg__65_iri a <tag:stardog:designer:Project_Graph_:model:POP_Seg__65> .
+
+  ?POP_Seg_iri a <tag:stardog:designer:Project_Graph_:model:POP_Seg> .
+
+  ?POP_U_Gr_iri a <tag:stardog:designer:Project_Graph_:model:POP_U_Gr> .
+
+  ?POP_U_iri a <tag:stardog:designer:Project_Graph_:model:POP_U> .
+
+  ?POP_U_perc_iri a <tag:stardog:designer:Project_Graph_:model:POP_U_perc> .
+
+  ?POP_UR_iri a <tag:stardog:designer:Project_Graph_:model:POP_UR> .
+
+  ?AD_iri <tag:stardog:designer:Project_Graph_:model:gggggggggggggg> ?ADO_iri .
+
+  ?AD_iri <tag:stardog:designer:Project_Graph_:model:xxxx> ?ADY_iri .
+
+  ?BR_iri <tag:stardog:designer:Project_Graph_:model:sex_bith_ratio> ?BR_ra_iri .
+
+  ?Core_iri <tag:stardog:designer:Project_Graph_:model:Birth_rate> ?BR_iri .
+
+  ?Core_iri <tag:stardog:designer:Project_Graph_:model:Death_rate> ?DR_iri .
+
+  ?Core_iri <tag:stardog:designer:Project_Graph_:model:Fertility_rate> ?FR_iri .
+
+  ?Core_iri <tag:stardog:designer:Project_Graph_:model:hhhhhhh> ?AD_iri .
+
+  ?Core_iri <tag:stardog:designer:Project_Graph_:model:Life_Expectancy_at_birth> ?LEB_iri .
+
+  ?Core_iri <tag:stardog:designer:Project_Graph_:model:mortality> ?MOR_iri .
+
+  ?Core_iri <tag:stardog:designer:Project_Graph_:model:mortality> ?MOR_iri_1 .
+
+  ?Core_iri <tag:stardog:designer:Project_Graph_:model:net_migration> ?Mig_iri .
+
+  ?Core_iri <tag:stardog:designer:Project_Graph_:model:pop> ?POP_MF_iri .
+
+  ?Core_iri <tag:stardog:designer:Project_Graph_:model:Population_growth> ?POP_Gr_iri .
+
+  ?Core_iri <tag:stardog:designer:Project_Graph_:model:Population_segmentation> ?POP_Seg_iri .
+
+  ?Core_iri <tag:stardog:designer:Project_Graph_:model:Population_totale> ?POP_UR_iri .
+
+  ?LEB_iri <tag:stardog:designer:Project_Graph_:model:life_expectancy_at_birth_for_female> ?LEBF_iri .
+
+  ?LEB_iri <tag:stardog:designer:Project_Graph_:model:life_expectancy_at_birth_for_male> ?LEBM_iri .
+
+  ?MOR_I_iri <tag:stardog:designer:Project_Graph_:model:mortality_rate_(_infant_-_female_)> ?MOR_I_F_iri .
+
+  ?MOR_I_iri <tag:stardog:designer:Project_Graph_:model:mortality_rate_(_infant_-_male_)> ?MOR_I_M_iri .
+
+  ?MOR_iri <tag:stardog:designer:Project_Graph_:model:mortality_1> ?MOR_A_F_iri .
+
+  ?MOR_iri <tag:stardog:designer:Project_Graph_:model:mortality_rate_(_infant)> ?MOR_I_iri .
+
+  ?MOR_iri <tag:stardog:designer:Project_Graph_:model:mortality_rate_neonatal> ?MOR_Neo_iri .
+
+  ?MOR_iri <tag:stardog:designer:Project_Graph_:model:mortality_rates_(_adults_-_male_)> ?MOR_A_M_iri .
+
+  ?POP_MF_iri <tag:stardog:designer:Project_Graph_:model:populaion_female> ?POP_F_iri .
+
+  ?POP_MF_iri <tag:stardog:designer:Project_Graph_:model:population_male> ?POP_M_iri .
+
+  ?POP_R_iri <tag:stardog:designer:Project_Graph_:model:Population_rurale_growth> ?POP_R_GR_iri .
+
+  ?POP_R_iri <tag:stardog:designer:Project_Graph_:model:Population_rurale_pourcentage> ?POP_R_perc_iri .
+
+  ?POP_Seg_iri <tag:stardog:designer:Project_Graph_:model:population_segment_0-14> ?POP_Seg_0_14_iri .
+
+  ?POP_Seg_iri <tag:stardog:designer:Project_Graph_:model:population_segment_15-64> ?POP_Seg_15_64_iri .
+
+  ?POP_Seg_iri <tag:stardog:designer:Project_Graph_:model:population_segment_above_65> ?POP_Seg__65_iri .
+
+  ?POP_U_iri <tag:stardog:designer:Project_Graph_:model:Population_urban_growth> ?POP_U_Gr_iri .
+
+  ?POP_U_iri <tag:stardog:designer:Project_Graph_:model:population_urban_pourcentage> ?POP_U_perc_iri .
+
+  ?POP_UR_iri <tag:stardog:designer:Project_Graph_:model:Population_rurale> ?POP_R_iri .
+
+  ?POP_UR_iri <tag:stardog:designer:Project_Graph_:model:Population_urban> ?POP_U_iri .
+}
+WHERE {
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:DDM:{Time}") AS ?DDM_iri)
+  BIND(<http://www.w3.org/2001/XMLSchema#string>(sourceField("Country Name")) AS ?label)
+  BIND(StrDt(sourceField("Age dependency ratio, old [SP.POP.DPND.OL]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_dependency_ratio__old__SP_POP_DPND_OL__string_field)
+  BIND(StrDt(sourceField("Age dependency ratio, young [SP.POP.DPND.YG]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_dependency_ratio__young__SP_POP_DPND_YG__string_field)
+  BIND(StrDt(sourceField("Age population, age 00, female, interpolated [SP.POP.AG00.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_00__female__interpolated__SP_POP_AG00_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 00, male, interpolated [SP.POP.AG00.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_00__male__interpolated__SP_POP_AG00_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 01, female, interpolated [SP.POP.AG01.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_01__female__interpolated__SP_POP_AG01_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 01, male, interpolated [SP.POP.AG01.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_01__male__interpolated__SP_POP_AG01_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 02, female, interpolated [SP.POP.AG02.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_02__female__interpolated__SP_POP_AG02_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 02, male, interpolated [SP.POP.AG02.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_02__male__interpolated__SP_POP_AG02_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 03, female, interpolated [SP.POP.AG03.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_03__female__interpolated__SP_POP_AG03_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 03, male, interpolated [SP.POP.AG03.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_03__male__interpolated__SP_POP_AG03_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 04, female, interpolated [SP.POP.AG04.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_04__female__interpolated__SP_POP_AG04_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 04, male, interpolated [SP.POP.AG04.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_04__male__interpolated__SP_POP_AG04_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 05, female, interpolated [SP.POP.AG05.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_05__female__interpolated__SP_POP_AG05_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 05, male, interpolated [SP.POP.AG05.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_05__male__interpolated__SP_POP_AG05_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 06, female, interpolated [SP.POP.AG06.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_06__female__interpolated__SP_POP_AG06_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 06, male, interpolated [SP.POP.AG06.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_06__male__interpolated__SP_POP_AG06_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 07, female, interpolated [SP.POP.AG07.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_07__female__interpolated__SP_POP_AG07_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 07, male, interpolated [SP.POP.AG07.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_07__male__interpolated__SP_POP_AG07_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 08, female, interpolated [SP.POP.AG08.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_08__female__interpolated__SP_POP_AG08_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 08, male, interpolated [SP.POP.AG08.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_08__male__interpolated__SP_POP_AG08_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 09, female, interpolated [SP.POP.AG09.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_09__female__interpolated__SP_POP_AG09_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 09, male, interpolated [SP.POP.AG09.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_09__male__interpolated__SP_POP_AG09_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 10, female, interpolated [SP.POP.AG10.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_10__female__interpolated__SP_POP_AG10_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 10, male, interpolated [SP.POP.AG10.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_10__male__interpolated__SP_POP_AG10_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 11, female, interpolated [SP.POP.AG11.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_11__female__interpolated__SP_POP_AG11_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 11, male, interpolated [SP.POP.AG11.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_11__male__interpolated__SP_POP_AG11_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 12, female, interpolated [SP.POP.AG12.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_12__female__interpolated__SP_POP_AG12_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 12, male, interpolated [SP.POP.AG12.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_12__male__interpolated__SP_POP_AG12_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 13, female, interpolated [SP.POP.AG13.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_13__female__interpolated__SP_POP_AG13_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 13, male, interpolated [SP.POP.AG13.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_13__male__interpolated__SP_POP_AG13_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 14, female, interpolated [SP.POP.AG14.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_14__female__interpolated__SP_POP_AG14_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 14, male, interpolated [SP.POP.AG14.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_14__male__interpolated__SP_POP_AG14_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 15, female, interpolated [SP.POP.AG15.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_15__female__interpolated__SP_POP_AG15_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 15, male, interpolated [SP.POP.AG15.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_15__male__interpolated__SP_POP_AG15_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 16, female, interpolated [SP.POP.AG16.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_16__female__interpolated__SP_POP_AG16_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 16, male, interpolated [SP.POP.AG16.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_16__male__interpolated__SP_POP_AG16_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 17, female, interpolated [SP.POP.AG17.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_17__female__interpolated__SP_POP_AG17_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 17, male, interpolated [SP.POP.AG17.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_17__male__interpolated__SP_POP_AG17_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 18, female, interpolated [SP.POP.AG18.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_18__female__interpolated__SP_POP_AG18_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 18, male, interpolated [SP.POP.AG18.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_18__male__interpolated__SP_POP_AG18_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 19, female, interpolated [SP.POP.AG19.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_19__female__interpolated__SP_POP_AG19_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 19, male, interpolated [SP.POP.AG19.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_19__male__interpolated__SP_POP_AG19_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 20, female, interpolated [SP.POP.AG20.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_20__female__interpolated__SP_POP_AG20_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 20, male, interpolated [SP.POP.AG20.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_20__male__interpolated__SP_POP_AG20_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 21, female, interpolated [SP.POP.AG21.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_21__female__interpolated__SP_POP_AG21_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 21, male, interpolated [SP.POP.AG21.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_21__male__interpolated__SP_POP_AG21_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 22, female, interpolated [SP.POP.AG22.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_22__female__interpolated__SP_POP_AG22_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 22, male, interpolated [SP.POP.AG22.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_22__male__interpolated__SP_POP_AG22_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 23, female, interpolated [SP.POP.AG23.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_23__female__interpolated__SP_POP_AG23_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 23, male, interpolated [SP.POP.AG23.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_23__male__interpolated__SP_POP_AG23_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 24, female, interpolated [SP.POP.AG24.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_24__female__interpolated__SP_POP_AG24_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 24, male, interpolated [SP.POP.AG24.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_24__male__interpolated__SP_POP_AG24_MA_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 25, female, interpolated [SP.POP.AG25.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_25__female__interpolated__SP_POP_AG25_FE_IN__string_field)
+  BIND(StrDt(sourceField("Age population, age 25, male, interpolated [SP.POP.AG25.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Age_population__age_25__male__interpolated__SP_POP_AG25_MA_IN__string_field)
+  BIND(StrDt(sourceField("Birth rate, crude (per 1,000 people) [SP.DYN.CBRT.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Birth_rate__crude__per_1_000_people___SP_DYN_CBRT_IN__string_field)
+  BIND(StrDt(sourceField("Country Code"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Country_Code_string_field)
+  BIND(StrDt(sourceField("Country Name"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Country_Name_string_field)
+  BIND(StrDt(sourceField("Death rate, crude (per 1,000 people) [SP.DYN.CDRT.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Death_rate__crude__per_1_000_people___SP_DYN_CDRT_IN__string_field)
+  BIND(StrDt(sourceField("Fertility rate, total (births per woman) [SP.DYN.TFRT.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Fertility_rate__total__births_per_woman___SP_DYN_TFRT_IN__string_field)
+  BIND(StrDt(sourceField("Life expectancy at birth, female (years) [SP.DYN.LE00.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Life_expectancy_at_birth__female__years___SP_DYN_LE00_FE_IN__string_field)
+  BIND(StrDt(sourceField("Life expectancy at birth, male (years) [SP.DYN.LE00.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Life_expectancy_at_birth__male__years___SP_DYN_LE00_MA_IN__string_field)
+  BIND(StrDt(sourceField("Life expectancy at birth, total (years) [SP.DYN.LE00.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Life_expectancy_at_birth__total__years___SP_DYN_LE00_IN__string_field)
+  BIND(StrDt(sourceField("Mortality rate, adult, female (per 1,000 female adults) [SP.DYN.AMRT.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Mortality_rate__adult__female__per_1_000_female_adults___SP_DYN_AMRT_FE__string_field)
+  BIND(StrDt(sourceField("Mortality rate, adult, male (per 1,000 male adults) [SP.DYN.AMRT.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Mortality_rate__adult__male__per_1_000_male_adults___SP_DYN_AMRT_MA__string_field)
+  BIND(StrDt(sourceField("Mortality rate, infant (per 1,000 live births) [SP.DYN.IMRT.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Mortality_rate__infant__per_1_000_live_births___SP_DYN_IMRT_IN__string_field)
+  BIND(StrDt(sourceField("Mortality rate, infant, female (per 1,000 live births) [SP.DYN.IMRT.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Mortality_rate__infant__female__per_1_000_live_births___SP_DYN_IMRT_FE_IN__string_field)
+  BIND(StrDt(sourceField("Mortality rate, infant, male (per 1,000 live births) [SP.DYN.IMRT.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Mortality_rate__infant__male__per_1_000_live_births___SP_DYN_IMRT_MA_IN__string_field)
+  BIND(StrDt(sourceField("Mortality rate, neonatal (per 1,000 live births) [SH.DYN.NMRT]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Mortality_rate__neonatal__per_1_000_live_births___SH_DYN_NMRT__string_field)
+  BIND(StrDt(sourceField("Mortality rate, under-5 (per 1,000) [SH.DYN.MORT]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Mortality_rate__under_5__per_1_000___SH_DYN_MORT__string_field)
+  BIND(StrDt(sourceField("Mortality rate, under-5, female (per 1,000) [SH.DYN.MORT.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Mortality_rate__under_5__female__per_1_000___SH_DYN_MORT_FE__string_field)
+  BIND(StrDt(sourceField("Mortality rate, under-5, male (per 1,000) [SH.DYN.MORT.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Mortality_rate__under_5__male__per_1_000___SH_DYN_MORT_MA__string_field)
+  BIND(StrDt(sourceField("Net migration [SM.POP.NETM]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Net_migration__SM_POP_NETM__string_field)
+  BIND(StrDt(sourceField("Number of deaths ages 10-14 years [SH.DTH.1014]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Number_of_deaths_ages_10_14_years__SH_DTH_1014__string_field)
+  BIND(StrDt(sourceField("Number of deaths ages 10-19 years [SH.DTH.1019]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Number_of_deaths_ages_10_19_years__SH_DTH_1019__string_field)
+  BIND(StrDt(sourceField("Number of deaths ages 15-19 years [SH.DTH.1519]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Number_of_deaths_ages_15_19_years__SH_DTH_1519__string_field)
+  BIND(StrDt(sourceField("Number of deaths ages 20-24 years [SH.DTH.2024]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Number_of_deaths_ages_20_24_years__SH_DTH_2024__string_field)
+  BIND(StrDt(sourceField("Number of deaths ages 5-14 years [SH.DTH.0514]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Number_of_deaths_ages_5_14_years__SH_DTH_0514__string_field)
+  BIND(StrDt(sourceField("Number of deaths ages 5-9 years [SH.DTH.0509]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Number_of_deaths_ages_5_9_years__SH_DTH_0509__string_field)
+  BIND(StrDt(sourceField("Number of infant deaths [SH.DTH.IMRT]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Number_of_infant_deaths__SH_DTH_IMRT__string_field)
+  BIND(StrDt(sourceField("Number of infant deaths, female [SH.DTH.IMRT.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Number_of_infant_deaths__female__SH_DTH_IMRT_FE__string_field)
+  BIND(StrDt(sourceField("Number of infant deaths, male [SH.DTH.IMRT.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Number_of_infant_deaths__male__SH_DTH_IMRT_MA__string_field)
+  BIND(StrDt(sourceField("Number of neonatal deaths [SH.DTH.NMRT]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Number_of_neonatal_deaths__SH_DTH_NMRT__string_field)
+  BIND(StrDt(sourceField("Number of under-five deaths [SH.DTH.MORT]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Number_of_under_five_deaths__SH_DTH_MORT__string_field)
+  BIND(StrDt(sourceField("Number of under-five deaths, female [SH.DTH.MORT.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Number_of_under_five_deaths__female__SH_DTH_MORT_FE__string_field)
+  BIND(StrDt(sourceField("Number of under-five deaths, male [SH.DTH.MORT.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Number_of_under_five_deaths__male__SH_DTH_MORT_MA__string_field)
+  BIND(StrDt(sourceField("Population ages 0-14, female [SP.POP.0014.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_0_14__female__SP_POP_0014_FE_IN__string_field)
+  BIND(StrDt(sourceField("Population ages 0-14, male [SP.POP.0014.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_0_14__male__SP_POP_0014_MA_IN__string_field)
+  BIND(StrDt(sourceField("Population ages 0-14, total [SP.POP.0014.TO]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_0_14__total__SP_POP_0014_TO__string_field)
+  BIND(StrDt(sourceField("Population ages 00-04, female [SP.POP.0004.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_00_04__female__SP_POP_0004_FE__string_field)
+  BIND(StrDt(sourceField("Population ages 00-04, male [SP.POP.0004.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_00_04__male__SP_POP_0004_MA__string_field)
+  BIND(StrDt(sourceField("Population ages 05-09, female [SP.POP.0509.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_05_09__female__SP_POP_0509_FE__string_field)
+  BIND(StrDt(sourceField("Population ages 05-09, male [SP.POP.0509.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_05_09__male__SP_POP_0509_MA__string_field)
+  BIND(StrDt(sourceField("Population ages 10-14, female [SP.POP.1014.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_10_14__female__SP_POP_1014_FE__string_field)
+  BIND(StrDt(sourceField("Population ages 10-14, male [SP.POP.1014.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_10_14__male__SP_POP_1014_MA__string_field)
+  BIND(StrDt(sourceField("Population ages 15-19, female [SP.POP.1519.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_15_19__female__SP_POP_1519_FE__string_field)
+  BIND(StrDt(sourceField("Population ages 15-19, male [SP.POP.1519.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_15_19__male__SP_POP_1519_MA__string_field)
+  BIND(StrDt(sourceField("Population ages 15-64, female [SP.POP.1564.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_15_64__female__SP_POP_1564_FE_IN__string_field)
+  BIND(StrDt(sourceField("Population ages 15-64, male [SP.POP.1564.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_15_64__male__SP_POP_1564_MA_IN__string_field)
+  BIND(StrDt(sourceField("Population ages 15-64, total [SP.POP.1564.TO]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_15_64__total__SP_POP_1564_TO__string_field)
+  BIND(StrDt(sourceField("Population ages 20-24, female [SP.POP.2024.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_20_24__female__SP_POP_2024_FE__string_field)
+  BIND(StrDt(sourceField("Population ages 20-24, male [SP.POP.2024.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_20_24__male__SP_POP_2024_MA__string_field)
+  BIND(StrDt(sourceField("Population ages 25-29, female [SP.POP.2529.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_25_29__female__SP_POP_2529_FE__string_field)
+  BIND(StrDt(sourceField("Population ages 25-29, male [SP.POP.2529.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_25_29__male__SP_POP_2529_MA__string_field)
+  BIND(StrDt(sourceField("Population ages 30-34, female [SP.POP.3034.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_30_34__female__SP_POP_3034_FE__string_field)
+  BIND(StrDt(sourceField("Population ages 30-34, male [SP.POP.3034.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_30_34__male__SP_POP_3034_MA__string_field)
+  BIND(StrDt(sourceField("Population ages 35-39, female [SP.POP.3539.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_35_39__female__SP_POP_3539_FE__string_field)
+  BIND(StrDt(sourceField("Population ages 35-39, male [SP.POP.3539.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_35_39__male__SP_POP_3539_MA__string_field)
+  BIND(StrDt(sourceField("Population ages 40-44, female [SP.POP.4044.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_40_44__female__SP_POP_4044_FE__string_field)
+  BIND(StrDt(sourceField("Population ages 40-44, male [SP.POP.4044.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_40_44__male__SP_POP_4044_MA__string_field)
+  BIND(StrDt(sourceField("Population ages 45-49, female [SP.POP.4549.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_45_49__female__SP_POP_4549_FE__string_field)
+  BIND(StrDt(sourceField("Population ages 45-49, male [SP.POP.4549.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_45_49__male__SP_POP_4549_MA__string_field)
+  BIND(StrDt(sourceField("Population ages 50-54, female [SP.POP.5054.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_50_54__female__SP_POP_5054_FE__string_field)
+  BIND(StrDt(sourceField("Population ages 50-54, male [SP.POP.5054.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_50_54__male__SP_POP_5054_MA__string_field)
+  BIND(StrDt(sourceField("Population ages 55-59, female [SP.POP.5559.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_55_59__female__SP_POP_5559_FE__string_field)
+  BIND(StrDt(sourceField("Population ages 55-59, male [SP.POP.5559.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_55_59__male__SP_POP_5559_MA__string_field)
+  BIND(StrDt(sourceField("Population ages 60-64, female [SP.POP.6064.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_60_64__female__SP_POP_6064_FE__string_field)
+  BIND(StrDt(sourceField("Population ages 60-64, male [SP.POP.6064.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_60_64__male__SP_POP_6064_MA__string_field)
+  BIND(StrDt(sourceField("Population ages 65 and above, female [SP.POP.65UP.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_65_and_above__female__SP_POP_65UP_FE_IN__string_field)
+  BIND(StrDt(sourceField("Population ages 65 and above, male [SP.POP.65UP.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_65_and_above__male__SP_POP_65UP_MA_IN__string_field)
+  BIND(StrDt(sourceField("Population ages 65 and above, total [SP.POP.65UP.TO]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_65_and_above__total__SP_POP_65UP_TO__string_field)
+  BIND(StrDt(sourceField("Population ages 65-69, female [SP.POP.6569.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_65_69__female__SP_POP_6569_FE__string_field)
+  BIND(StrDt(sourceField("Population ages 65-69, male [SP.POP.6569.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_65_69__male__SP_POP_6569_MA__string_field)
+  BIND(StrDt(sourceField("Population ages 70-74, female [SP.POP.7074.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_70_74__female__SP_POP_7074_FE__string_field)
+  BIND(StrDt(sourceField("Population ages 70-74, male [SP.POP.7074.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_70_74__male__SP_POP_7074_MA__string_field)
+  BIND(StrDt(sourceField("Population ages 75-79, female [SP.POP.7579.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_75_79__female__SP_POP_7579_FE__string_field)
+  BIND(StrDt(sourceField("Population ages 75-79, male [SP.POP.7579.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_75_79__male__SP_POP_7579_MA__string_field)
+  BIND(StrDt(sourceField("Population ages 80 and above, female [SP.POP.80UP.FE]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_80_and_above__female__SP_POP_80UP_FE__string_field)
+  BIND(StrDt(sourceField("Population ages 80 and above, male [SP.POP.80UP.MA]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population_ages_80_and_above__male__SP_POP_80UP_MA__string_field)
+  BIND(StrDt(sourceField("Population, female [SP.POP.TOTL.FE.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population__female__SP_POP_TOTL_FE_IN__string_field)
+  BIND(StrDt(sourceField("Population, male [SP.POP.TOTL.MA.IN]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population__male__SP_POP_TOTL_MA_IN__string_field)
+  BIND(StrDt(sourceField("Population, total [SP.POP.TOTL]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Population__total__SP_POP_TOTL__string_field)
+  BIND(StrDt(sourceField("Probability of dying among adolescents ages 10-14 years (per 1,000) [SH.DYN.1014]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Probability_of_dying_among_adolescents_ages_10_14_years__per_1_000___SH_DYN_1014__string_field)
+  BIND(StrDt(sourceField("Probability of dying among adolescents ages 10-19 years (per 1,000) [SH.DYN.1019]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Probability_of_dying_among_adolescents_ages_10_19_years__per_1_000___SH_DYN_1019__string_field)
+  BIND(StrDt(sourceField("Probability of dying among adolescents ages 15-19 years (per 1,000) [SH.DYN.1519]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Probability_of_dying_among_adolescents_ages_15_19_years__per_1_000___SH_DYN_1519__string_field)
+  BIND(StrDt(sourceField("Probability of dying among children ages 5-9 years (per 1,000) [SH.DYN.0509]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Probability_of_dying_among_children_ages_5_9_years__per_1_000___SH_DYN_0509__string_field)
+  BIND(StrDt(sourceField("Probability of dying among youth ages 20-24 years (per 1,000) [SH.DYN.2024]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Probability_of_dying_among_youth_ages_20_24_years__per_1_000___SH_DYN_2024__string_field)
+  BIND(StrDt(sourceField("Probability of dying at age 5-14 years (per 1,000 children age 5) [SH.DYN.0514]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Probability_of_dying_at_age_5_14_years__per_1_000_children_age_5___SH_DYN_0514__string_field)
+  BIND(StrDt(sourceField("Rural population [SP.RUR.TOTL]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Rural_population__SP_RUR_TOTL__string_field)
+  BIND(StrDt(sourceField("Sex ratio at birth (male births per female births) [SP.POP.BRTH.MF]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Sex_ratio_at_birth__male_births_per_female_births___SP_POP_BRTH_MF__string_field)
+  BIND(StrDt(sourceField("Time"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Time_string_field)
+  BIND(StrDt(sourceField("Time Code"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Time_Code_string_field)
+  BIND(StrDt(sourceField("Urban population [SP.URB.TOTL]"), <http://www.w3.org/2001/XMLSchema#string>) AS ?Urban_population__SP_URB_TOTL__string_field)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:ADY:{Age dependency ratio, young [SP.POP.DPND.YG]}") AS ?ADY_iri)
+  BIND(<http://www.w3.org/2001/XMLSchema#string>(sourceField("Age dependency ratio, young [SP.POP.DPND.YG]")) AS ?label_1)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:ADO:{Age dependency ratio, old [SP.POP.DPND.OL]}") AS ?ADO_iri)
+  BIND(<http://www.w3.org/2001/XMLSchema#string>(sourceField("Age dependency ratio, old [SP.POP.DPND.OL]")) AS ?label_2)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:time:{Time}") AS ?Core_iri)
+  BIND(<http://www.w3.org/2001/XMLSchema#string>(sourceField("Time")) AS ?label_3)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:agedep:{Age dependency ratio (% of working-age population) [SP.POP.DPND]}") AS ?AD_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:life_expectancy:{Life expectancy at birth, total (years) [SP.DYN.LE00.IN]}") AS ?LEB_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:LEBF:{Life expectancy at birth, female (years) [SP.DYN.LE00.FE.IN]}") AS ?LEBF_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:LEBM:{Life expectancy at birth, male (years) [SP.DYN.LE00.MA.IN]}") AS ?LEBM_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:Pop:{Birth rate, crude (per 1,000 people) [SP.DYN.CBRT.IN]}") AS ?BR_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:DR:{Death rate, crude (per 1,000 people) [SP.DYN.CDRT.IN]}") AS ?DR_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:FR:{Fertility rate, total (births per woman) [SP.DYN.TFRT.IN]}") AS ?FR_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:POP_UR:{Population, total [SP.POP.TOTL]}") AS ?POP_UR_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:POP_U:{Urban population [SP.URB.TOTL]}") AS ?POP_U_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:POP_U_Gr:{Urban population growth (annual %) [SP.URB.GROW]}") AS ?POP_U_Gr_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:POP_U_perc:{Urban population (% of total population) [SP.URB.TOTL.IN.ZS]}") AS ?POP_U_perc_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:POP_R:{Rural population [SP.RUR.TOTL]}") AS ?POP_R_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:POP_R_GR:{Rural population growth (annual %) [SP.RUR.TOTL.ZG]}") AS ?POP_R_GR_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:POP_R_perc:{Rural population (% of total population) [SP.RUR.TOTL.ZS]}") AS ?POP_R_perc_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:Mig:{Net migration [SM.POP.NETM]}") AS ?Mig_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:Prob_D:{Population, total [SP.POP.TOTL]}") AS ?POP_MF_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:POP_M:{Population, male [SP.POP.TOTL.MA.IN]}") AS ?POP_M_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:POP_F:{Population, female [SP.POP.TOTL.FE.IN]}") AS ?POP_F_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:Mor:{Time Code}__mortality_rates") AS ?MOR_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:MOR_1:{Mortality rate, adult, female (per 1,000 female adults) [SP.DYN.AMRT.FE]}") AS ?MOR_A_F_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:MOR_I:{Mortality rate, infant (per 1,000 live births) [SP.DYN.IMRT.IN]}") AS ?MOR_I_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:MOR_I_F:{Mortality rate, infant, female (per 1,000 live births) [SP.DYN.IMRT.FE.IN]}") AS ?MOR_I_F_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:MOR_I_M:{Mortality rate, infant, male (per 1,000 live births) [SP.DYN.IMRT.MA.IN]}") AS ?MOR_I_M_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:MOR_Neo:{Mortality rate, neonatal (per 1,000 live births) [SH.DYN.NMRT]}") AS ?MOR_Neo_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:MOR_:{Mortality rate, adult, male (per 1,000 male adults) [SP.DYN.AMRT.MA]}") AS ?MOR_A_M_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:POP_Gr:{Population growth (annual %) [SP.POP.GROW]}") AS ?POP_Gr_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:POP_MF_R:{Sex ratio at birth (male births per female births) [SP.POP.BRTH.MF]}") AS ?BR_ra_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:POP_Seg:{Population, total [SP.POP.TOTL]}") AS ?POP_Seg_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:POP_Seg_0-14:{Population ages 0-14 (% of total population) [SP.POP.0014.TO.ZS]}") AS ?POP_Seg_0_14_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:POP_Seg_15-64:{Population ages 15-64 (% of total population) [SP.POP.1564.TO.ZS]}") AS ?POP_Seg_15_64_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:POP_Seg__65:{Population ages 65 and above (% of total population) [SP.POP.65UP.TO.ZS]}") AS ?POP_Seg__65_iri)
+  BIND(TEMPLATE("tag:stardog:designer:Project_Graph_:data:Mor:{Time}") AS ?MOR_iri_1)
+}
